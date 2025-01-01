@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "We craft every dish using the freshest ingredients and meticulous care. Our skilled chefs ensure each bite is a perfect blend of flavor and quality. Experience food that’s made with passion and served with pride." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Every dish is a celebration of flavor. With bold spices, fresh ingredients, and innovative recipes, we bring you a taste that lingers. Delight in every bite and savor the extraordinary!" 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Enjoy your favorite dishes delivered to your doorstep, hot and fresh. We ensure quick and reliable service so you can satisfy your cravings without delay." 
             }
         ],
         "dishes": [
@@ -74,26 +74,26 @@
             {
                 "id": 1,
                 "image": "./team_member_1.png",
-                "name": "JOHNATHAN TYLER",
-                "designation": "Founder & Head Chef"
+                "name": "Ethan Carter",
+                "designation": "Co-Founder & Executive Chef"
             },
             {
                 "id": 2,
                 "image": "./team_member_2.png",
-                "name": "WADE WARREN",
-                "designation": "Sous Chef"
+                "name": "Liam Bennett",
+                "designation": "Pastry Chef"
             },
             {
                 "id": 3,
                 "image": "./team_member_3.png",
-                "name": "JHON DOE",
-                "designation": "Fast Food Chef"
+                "name": "Steve Hayes",
+                "designation": "Grill Master"
             },
             {
                 "id": 4,
                 "image": "./team_member_4.png",
-                "name": "ALEX COAL",
-                "designation": "Senior Chef"
+                "name": "Oliver Morgan",
+                "designation": "Head of Culinary Innovation"
             }
         ],
         "testimonials": [
@@ -122,22 +122,22 @@
         "who_we_are": [
             {
                 "id": 1,
-                "number": "14",
+                "number": "9",
                 "title": "Restaurants"
             },
             {
                 "id": 2,
-                "number": "20",
+                "number": "15",
                 "title": "Chef In Kitchen"
             },
             {
                 "id": 3,
-                "number": "08",
+                "number": "9",
                 "title": "Years Of Experience"
             },
             {
                 "id": 4,
-                "number": "200",
+                "number": "250+",
                 "title": "Food Dishes"
             }
         ],
