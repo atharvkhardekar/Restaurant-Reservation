@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll"; 
 import { HiOutlineArrowRight } from "react-icons/hi";
 
 const About = () => {
@@ -13,15 +13,27 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-            At FOOD4U, we believe every meal tells a story. Nestled in the heart of Jalna, our passion for culinary excellence drives us to create unforgettable dining experiences.
-
-Our journey began with a simple idea: to bring people together through the universal language of food. Each dish on our menu is crafted with love, using the freshest ingredients sourced locally and sustainably. From time-honored recipes to innovative flavors, we offer a perfect blend of tradition and creativity.
-
-More than just a place to eat, FOOD4U is where memories are made. Whether it’s a family gathering, a romantic date night, or a celebration with friends, our warm ambiance and exceptional service will make you feel right at home.
-
-Join us and discover why food is not just our passion—it’s our way of life. Welcome to FOOD4U, where every bite is a promise of happiness.
+              At FOOD4U, we believe every meal tells a story. Nestled in the
+              heart of Jalna, our passion for culinary excellence drives us to
+              create unforgettable dining experiences. Our journey began with a
+              simple idea: to bring people together through the universal
+              language of food. Each dish on our menu is crafted with love,
+              using the freshest ingredients sourced locally and sustainably.
+              From time-honored recipes to innovative flavors, we offer a
+              perfect blend of tradition and creativity. More than just a place
+              to eat, FOOD4U is where memories are made. Whether it’s a family
+              gathering, a romantic date night, or a celebration with friends,
+              our warm ambiance and exceptional service will make you feel
+              right at home. Join us and discover why food is not just our
+              passion—it’s our way of life. Welcome to FOOD4U, where every bite
+              is a promise of happiness.
             </p>
-            <Link to={"/"}>
+            <Link
+              to="menu" 
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               Explore Menu{" "}
               <span>
                 <HiOutlineArrowRight />
